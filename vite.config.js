@@ -7,7 +7,7 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react(), VitePWA({
-    base: '/anShirt.github.io/', // Corregido: Usa una ruta relativa
+    base: 'https://github.com/Carlos969988/anShirt.github.io', // Corregido: Usa una ruta relativa
     devOptions: {
       enabled: true,
     },
